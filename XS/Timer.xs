@@ -94,7 +94,7 @@ wxTimer::StartOnce( milliseconds = -1)
 void
 wxTimer::Stop()
 
-#if WXPERL_W_VERSION_GE( 3, 0, 0 )
+#if WXPERL_W_VERSION_GE( 3, 0, 0 ) && 0
 
 # DECLARE_OVERLOAD( wtim, Wx::Timer )
 
